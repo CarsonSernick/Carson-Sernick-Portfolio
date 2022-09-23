@@ -1,0 +1,133 @@
+
+@font-face {
+  font-family: 'CascadiaCode';
+  src: url(/CascadiaCode.ttf);
+  display: swap;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+  font-family: 'CascadiaCode', monospace;
+    font-size:16px;
+}
+
+#terminal {
+
+    top: 80px;
+    bottom: 96px;
+  
+}
+
+.container {
+    width: 99%;
+    position: fixed;
+}
+
+#terminalHeader {
+    height: 28px;
+    background-color: #ddd;
+}
+
+.button {
+    width: 15px;
+    height: 15px;
+    margin: 8px 5px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+  right: 0px;
+}
+
+.button1 {
+    margin-left: 20px;
+    background-color: #ff6464;
+    transition: 0.2s ease-in-out;
+} .button1:hover {
+  background-color: #860000;
+}
+
+.button2 {
+    background-color: gray;
+    transition: 0.2s ease-in-out;
+} .button2:hover {
+  background-color: white ;
+}
+
+
+.button3 {
+    background-color: gray;
+    transition: 0.2s ease-in-out;
+} .button3:hover {
+  background-color: white;
+}
+
+@media only screen and (min-width:768px){
+
+#terminalBody {
+    padding: 10px 25px 0 10px;
+    background-color: #242629;
+    height: 600px;
+    overflow-y: auto;
+  
+}
+}
+
+@media only screen and (min-width:440px){
+
+#terminalBody {
+    padding: 10px 25px 0 10px;
+    background-color: #242629;
+    height: 400px;
+    overflow-y: auto;
+  
+}
+}
+
+/* Tablet */
+
+@media only screen and (max-width:600px){
+#terminalBody {
+    padding: 10px 25px 0 10px;
+    background-color: #242629;
+    height: 360px;
+    overflow-y: auto;
+  
+}
+
+}
+/* Iphone */
+@media only screen and (max-width:414px){
+#terminalBody {
+    padding: 10px 25px 0 10px;
+    background-color: #242629;
+    height: 800px;
+    overflow-y: auto;
+  
+}
+
+}
+
+#BodyContent {
+    float: left;
+}
+
+input {
+    width: 30%;
+    background-color: #242629;
+    border-width: 0;
+    color: #ddd;
+  font-family: 'CascadiaCode', monospace;
+  font-size:16px;
+    font-weight: 700;
+}
+input:focus {
+    outline: none;
+}
+
+a {
+    color: #0dd;
+    transition: 0.2s ease-in-out;
+}
+a:hover {
+    color: teal;
+}
